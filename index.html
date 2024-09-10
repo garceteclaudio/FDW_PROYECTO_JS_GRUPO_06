@@ -18,8 +18,21 @@
     ></script>
   </head>
   <body>
-    <header>Holas</header>
-    <main></main>
-    <footer></footer>
+    <h1>Cálculo del Índice de Masa Corporal (IMC)</h1>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre"><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido"><br>
+
+    <label for="peso">Peso (kg):</label><br>
+    <input type="number" id="peso"><br>
+
+    <label for="altura">Altura (m):</label><br>
+    <input type="number" id="altura"><br>
+
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <div class="resultado" id="resultado"></div>
+    <script src="index.js"></script>
   </body>
 </html>
