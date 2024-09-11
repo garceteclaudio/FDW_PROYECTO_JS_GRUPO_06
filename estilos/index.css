@@ -1,6 +1,6 @@
 
 body {
-    background-color: #f8f9fa;
+    background-color: #fff;
 }
   
 #titulo{
@@ -18,9 +18,10 @@ footer {
 }
 
 .form-container {
-    background-color: #ffffff;
+    background: hsl(200, 40%, 75%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    border-top: 0.5rem solid hsl(200, 80%, 30%);
     border-radius: 10px;
     max-width: 600px;
     width: 100%;
@@ -37,7 +38,8 @@ label {
 
 input.form-control {
     border-radius: 5px;
-    border: 5px solid #ced4da;
+    border: 5px solid hsl(200, 80%, 40%);
+    background-color: #fff;
 }
   
 button.btn {
@@ -48,4 +50,14 @@ button.btn {
 #resultado{
     font-weight: bold;
     font-size: 1.1rem;
+}
+.cuerpo{
+    background:linear-gradient(hsl(200, 30%, 85%),hsl(200, 80%, 25%));
+}
+
+.foot{
+    margin-bottom: 10vh;
+    color:#fff;
+    font-style: italic;
+    font-weight: 300;
 }

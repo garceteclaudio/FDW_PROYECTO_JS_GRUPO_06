@@ -17,15 +17,15 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="cuerpo">
     <header>
       <h1 class="text-center mb-5" id="titulo">
-        Calculadora del índice de Masa Corporal (IMC)
+        Calculadora del Índice de Masa Corporal (IMC)
       </h1>
     </header>
 
     <main class="d-flex flex-column justify-content-center align-items-center">
-      <div class="form-container w-50 mt-n3">
+      <div class="form-container w-50 mt-n3 formulario">
         <div class="mb-3">
           <label for="nombre" class="form-label">Nombre:</label>
           <input type="text" id="nombre" class="form-control" />
@@ -38,12 +38,12 @@
 
         <div class="mb-3">
           <label for="peso" class="form-label">Peso (kg):</label>
-          <input type="number" id="peso" class="form-control" />
+          <input type="number" id="peso" class="form-control" placeholder="Use punto en vez de coma" />
         </div>
 
         <div class="mb-3">
           <label for="altura" class="form-label">Altura (m):</label>
-          <input type="number" id="altura" class="form-control" />
+          <input type="number" id="altura" class="form-control" placeholder="Use punto en vez de coma" />
         </div>
 
         <button
@@ -57,8 +57,8 @@
       </div>
     </main>
 
-    <footer class="text-center">
-      Fundamentos de Programación Web 2024 - Grupo 06
+    <footer class="text-center foot">
+      @Grupo06Company-Fundamentos-de-la-Programacion-Web.
     </footer>
 
     <script src="js/index.js"></script>
