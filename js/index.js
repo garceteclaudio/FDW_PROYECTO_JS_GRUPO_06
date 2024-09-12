@@ -27,9 +27,11 @@ function calcularIMC() {
     } 
 
     const resultado = `
+        Paciente: ${nombre+ "  "+apellido}
+        <br>
         Tu IMC es: ${imc}
         <br>
-        Obeservación: ${calculo}
+        Observación: ${calculo}
     `;
     document.getElementById("resultado").innerHTML = resultado;
 }
